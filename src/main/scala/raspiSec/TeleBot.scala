@@ -17,7 +17,7 @@ import sys.process._
   * Created by Ivan on 20.12.2016.
   */
 
-object TeleBot {System.getProperty()
+object TeleBot {
   var whiteList =  Main.ini.get("WhiteList")
   val alertlog = List.newBuilder[String]
   var protect = false
